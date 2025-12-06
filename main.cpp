@@ -1,6 +1,9 @@
 #include <iostream>
 #include "suma.h"
 #include "FibbInCPP.h"
+#include "Iloraz.h"
+
+using namespace std;
 
 int main(){
     int a = 3;
@@ -11,6 +14,10 @@ int main(){
     std::cout << "\n" << c;
 
     Fibb();
+    cout << "\n";
+    float x,y=3,z=4;
+    x = iloraz(y,z);
+    cout << x << " " << x - 1 << endl;
 
     return 0;
 }
