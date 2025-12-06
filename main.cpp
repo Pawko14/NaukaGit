@@ -22,6 +22,6 @@ int main(){
     float x,y=3,z=4;
     x = iloraz(y,z);
     cout << x << " " << endl;
-    
+
     return 0;
 }
