@@ -17,7 +17,7 @@ int main(){
     cout << "\n";
     float x,y=3,z=4;
     x = iloraz(y,z);
-    cout << x << " " << x - 1 << endl;
+    cout << x << " " << endl;
 
     return 0;
 }
